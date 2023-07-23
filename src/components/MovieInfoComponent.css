@@ -42,7 +42,7 @@
     overflow: hidden;
     text-overflow: ellipsis;
     text-align: center;
-    max-height: 60px; /* Add this line to limit the height of the title */
+    max-height: 60px; 
   }
   
   
