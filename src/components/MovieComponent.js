@@ -5,8 +5,7 @@ import { projectFirestore,projectAuth } from "../firebase/config";
 const MovieComponent = (props) => {
   const { Title, Year, imdbID, Type, Poster } = props.movie;
   const truncatedTitle = Title.length > 22 ? Title.slice(0, 22) + "..." : Title;
-  const [isFavorite, setIsFavorite] = useState(props.isFavorite || false); // Initialize with props.isFavorite or false
-
+  const [isFavorite, setIsFavorite] = useState(props.isFavorite || false); 
 
   const toggleFavorite = async () => {
     const user = projectAuth.currentUser;
