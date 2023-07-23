@@ -1,0 +1,59 @@
+/* MovieComponent.css */
+
+.MovieContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 15px;
+    width: 220px;
+    background-color: #fff;
+    box-shadow: 0 3px 10px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    margin: 10px;
+    cursor: pointer;
+    transition: transform 0.2s ease-in-out;
+  }
+  
+  .MovieContainer:hover {
+    transform: translateY(-5px);
+  }
+  
+  .MovieContainer img {
+    object-fit: cover;
+    height: 240px;
+    width: 100%;
+    border-radius: 10px 10px 0 0;
+  }
+  .MovieName {
+    font-size: 16px; /* Update the font size */
+    font-weight: 600;
+    color: #333;
+    margin: 10px 0;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    text-align: center;
+    max-height: 36px; /* Update the max-height */
+  }
+  
+
+  .InfoColumn {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .MovieInfo {
+    font-size: 14px;
+    font-weight: 500;
+    color: #555;
+    margin-top: 5px;
+    text-align: center;
+  }
+  
+  .Placeholder {
+    width: 120px;
+    height: 120px;
+    opacity: 50%;
+  }
+  
