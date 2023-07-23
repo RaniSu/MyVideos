@@ -17,7 +17,7 @@ export default function Navbar() {
           <Link to="/">MyVideos</Link>
         </li>
 
-        {/* Move the "Favorite" and "Home" links inside a new list item */}
+      
       {user&&(
           <>
           <li className={styles.navbarItem}>
