@@ -21,8 +21,11 @@ In the Firebase Console, navigate to your project and click on "Firestore Databa
 Step 3: Create a Collection
 In Firestore, data is organized into collections, which are similar to tables in a traditional database. To create a collection called "favorite,
 
-Step3 : in FireBase DataBase You Can See "Rules" in the right side , you need to update it to 
-this code:
+Step3 : in FireBase DataBase You Can See "Rules" in the right side 
+
+Step4 : Update Rules 
+
+
 rules_version = '2';
 service cloud.firestore {
   match /databases/{database}/documents {
